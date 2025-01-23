@@ -5,5 +5,5 @@
     "build_tool": ["npm", "pnpm"],
     "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
     "__class_name": "{{ cookiecutter.project_name|replace(' ', '') }}",
-    "git_repo": "git@github.com:{{cookiecutter.github_user_name}}/{{cookiecutter.__project_slug}}.git"
+    "git_repo": "https://github.com/{{cookiecutter.github_user_name}}/{{cookiecutter.__project_slug}}.git"
 }

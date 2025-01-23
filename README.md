@@ -20,12 +20,13 @@ The easiest way to get started is to use HomeBrew. If you don't have HomeBrew in
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-When HomeBrew is installed, you can install the required packages by running the following commands:
+When HomeBrew is installed, you can install the required packages and authenticate GitHub CLI by running the following commands:
 
 ```shell
 brew install node
-brew install gh
 brew install cookiecutter
+brew install gh
+gh auth login
 ```
 
 ```shell

@@ -1,4 +1,6 @@
 # {{cookiecutter.project_name}}
+    
+{{cookiecutter.project_description}}
 
 ## Unit tests
 
@@ -14,5 +16,4 @@ You can check the code coverage and view the html results by running this comman
 
 ```shell
 npm run test:coverage && open coverage/index.html
-
 ```

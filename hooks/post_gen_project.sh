@@ -30,7 +30,7 @@ if [ "$create_github_repo" = "True" ]; then
     echo ""
     echo "Creating and pushing GitHub repository..."
     gh repo create {{cookiecutter.__project_slug}} --public
-    git push origin main
+    git push --set-upstream origin main
 fi
 
 echo ""

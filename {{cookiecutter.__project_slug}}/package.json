@@ -1,8 +1,7 @@
 {
-  "name": "typescript-starter",
+  "name": "{{cookiecutter.__project_slug}}",
   "version": "1.0.0",
-  "author": "André Mathlener",
-  "description": "A simple TypeScript Starter Project",
+  "author": "{{cookiecutter.author}}",
   "keywords": [],
   "license": "MIT",
   "type": "module",

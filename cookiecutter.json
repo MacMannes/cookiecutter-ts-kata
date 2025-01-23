@@ -2,8 +2,9 @@
     "project_name": "My Kata",
     "github_user_name": "anonymous",
     "author": "anonymous",
-    "build_tool": ["npm", "pnpm"],
+    "build_tool": ["pnpm", "npm"],
     "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
     "__class_name": "{{ cookiecutter.project_name|replace(' ', '') }}",
-    "git_repo": "https://github.com/{{cookiecutter.github_user_name}}/{{cookiecutter.__project_slug}}.git"
+    "__git_repo": "https://github.com/{{cookiecutter.github_user_name}}/{{cookiecutter.__project_slug}}.git",
+    "create_github_repo": true
 }

@@ -29,7 +29,15 @@ brew install gh
 gh auth login
 ```
 
-```shell
+## Default Config
+
+You can define default values in the file `.cookiecutterrc` in your home directory. The file should look like this:
+
+```yaml
+default_context:
+  author: "André Mathlener"
+  github_user_name: "MacMannes"
+```
 
 ## Usage
 

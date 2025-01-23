@@ -6,8 +6,8 @@ This is a simple Cookiecutter template for TypeScript katas.
 
 The following packages have to be installed on your machine
 
--  **Node.js**  See: [Download Node.js](https://nodejs.org/en/download/package-manager)
--  **cookiecutter** installed on your machine. See: [Install cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/installation.html)
+-  **Node.js** See: [Download Node.js](https://nodejs.org/en/download/package-manager)
+-  **cookiecutter** See: [Install cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/installation.html)
 -  **GitHub CLI**. See: [Install GitHub CLI](https://cli.github.com/manual/installation)
 
 ## Quick Start (Mac OS)

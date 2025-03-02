@@ -1,7 +1,7 @@
 import eslint from '@eslint/js';
-import tseslint from 'typescript-eslint';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import prettier from 'eslint-plugin-prettier';
+import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
     eslint.configs.recommended,
@@ -14,7 +14,6 @@ export default tseslint.config(
         rules: {
             'quote-props': ['error', 'consistent-as-needed'],
             '@typescript-eslint/no-explicit-any': 'off',
-            '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
             'prettier/prettier': 'error',
         },
     },

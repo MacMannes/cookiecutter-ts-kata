@@ -47,3 +47,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: './badge.svg'
+          commit_message: 'chore(ci): update results badge'
+

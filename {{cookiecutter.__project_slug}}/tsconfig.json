@@ -1,18 +1,14 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "NodeNext",
-    "type": "module",
-    "moduleResolution": "Bundler",
-    "outDir": "dist",
+    "lib": ["es2023"],
+    "module": "nodenext",
+    "target": "es2022",
+    "baseUrl": ".",
+    "noEmit": true,
     "esModuleInterop": true,
-    "strict": true,
+    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "baseUrl": "src",
-    "paths": {
-      "@utils/*": ["./utils/*"],
-    }
-  },
-  "exclude": ["node_modules"]
+    "strict": true,
+    "allowImportingTsExtensions": true
+  }
 }

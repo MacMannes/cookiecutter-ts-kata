@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git init
-{{cookiecutter.build_tool}} install
+pnpm install
 
 create_github_repo="{{ cookiecutter.create_github_repo }}"
 class_name="{{ cookiecutter.__class_name }}"

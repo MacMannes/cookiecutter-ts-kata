@@ -7,6 +7,7 @@ This is a simple Cookiecutter template for TypeScript katas.
 The following packages have to be installed on your machine
 
 -  **Node.js** See: [Download Node.js](https://nodejs.org/en/download/package-manager)
+-  **pnpm** See: [Install pnpm](https://pnpm.io/installation)
 -  **cookiecutter** See: [Install cookiecutter](https://cookiecutter.readthedocs.io/en/1.7.0/installation.html)
 -  **GitHub CLI**. See: [Install GitHub CLI](https://cli.github.com/manual/installation)
 
@@ -24,6 +25,7 @@ When HomeBrew is installed, you can install the required packages and authentica
 
 ```shell
 brew install node
+brew install pnpm
 brew install cookiecutter
 brew install gh
 gh auth login

@@ -1,0 +1,8 @@
+{
+  "tabWidth": 4,
+  "overrides":
+  [
+      { "files": ["*.md"], "options": { "tabWidth": 2, "proseWrap": "always" } },
+      { "files": ["*.json", "*.yaml", ".prettierrc"], "options": { "tabWidth": 2 } },
+  ],
+}

@@ -1,11 +1,11 @@
 {
-    "project_name": "My Kata",
-    "github_user_name": "anonymous",
-    "author": "anonymous",
-    "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-    "__class_name": "{{ cookiecutter.project_name|replace(' ', '') }}",
-    "__git_repo": "https://github.com/{{cookiecutter.github_user_name}}/{{cookiecutter.__project_slug}}.git",
-    "__sonar_project_key": "{{cookiecutter.github_user_name}}_{{cookiecutter.__project_slug}}",
-    "__sonar_organization_name": "{{ cookiecutter.github_user_name|lower }}",
-    "create_github_repo": true
+  "project_name": "My Kata",
+  "github_user_name": "anonymous",
+  "author": "anonymous",
+  "__project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "__class_name": "{{ cookiecutter.project_name|replace(' ', '') }}",
+  "__git_repo": "https://github.com/{{cookiecutter.github_user_name}}/{{ cookiecutter.__project_slug }}.git",
+  "__sonar_project_key": "{{ cookiecutter.github_user_name }}_{{ cookiecutter.__project_slug }}",
+  "__sonar_organization_name": "{{ cookiecutter.github_user_name|lower }}",
+  "create_github_repo": true
 }

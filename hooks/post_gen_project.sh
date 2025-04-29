@@ -23,7 +23,7 @@ else
 fi
 
 git add -A
-git commit -m "Initial commit"
+git commit -m "chore: initial commit"
 git remote add origin {{cookiecutter.__git_repo}}
 
 if [ "$create_github_repo" = "True" ]; then

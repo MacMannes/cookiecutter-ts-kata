@@ -1,4 +1,5 @@
 import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import prettier from 'eslint-plugin-prettier';
 import noRelativeImportPaths from 'eslint-plugin-no-relative-import-paths';
